@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rise and Fall of the Potolamo Empire</title>
+<style>
+:root{--bg:#0b1020;--panel:#141c30;--gold:#e0b45b;--red:#c94f5b;--text:#edf2f7;--muted:#aeb8ca}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,sans-serif}
+header{text-align:center;padding:55px 20px 35px;background:linear-gradient(#18233c,#0b1020)}
+h1{font-size:clamp(2rem,6vw,4.5rem);line-height:1.05;margin:10px 0}
+header p{color:var(--muted);max-width:760px;margin:auto}
+main{max-width:1150px;margin:auto;padding:30px 18px 70px}
+section{background:var(--panel);border:1px solid #2a3752;border-radius:18px;padding:25px;margin:22px 0}
+h2{color:var(--gold)}
+.map-wrap{position:relative;width:100%;overflow:hidden;border-radius:14px;background:#dbe5d5}
+.map-wrap img{display:block;width:100%;height:auto}
+.overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.overlay polygon,.overlay path{fill:#b52f3b66;stroke:#7e1824;stroke-width:2;vector-effect:non-scaling-stroke}
+.overlay .sea{fill:#c69b3560;stroke:#795d20}
+.overlay text{font:700 2.1% system-ui,sans-serif;fill:#fff;paint-order:stroke;stroke:#1b1720;stroke-width:5px;stroke-linejoin:round}
+.legend{display:flex;flex-wrap:wrap;gap:15px;margin-top:15px;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:7px}.box{width:16px;height:16px;border-radius:4px;background:#b52f3b99;border:2px solid #7e1824}
+.timeline{display:grid;gap:12px}.event{padding:15px 18px;border-left:4px solid var(--gold);background:#1a243b;border-radius:8px}.event b{color:var(--gold)}
+footer{text-align:center;color:#77839a;padding:25px}
+@media(max-width:600px){section{padding:17px}.overlay text{stroke-width:3px}}
+</style>
+</head>
+<body>
+<header>
+<div>1197–1271 CE · FICTIONAL HISTORY</div>
+<h1>The Rise &amp; Fall of the Empire</h1>
+<p>From Frederick de Potolamo's acquisition of Friuli and Slovenia to the collapse of Otto II's empire in 1271.</p>
+</header>
+<main>
+<section>
+<h2>🗺️ The Empire at its Peak — 1265 CE</h2>
+<p>The base is a real geographic map of Europe. The red overlay is the fictional empire's approximate 1265 territory; it is an HTML/SVG overlay rather than a fictional replacement map.</p>
+<div class="map-wrap">
+<img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Pysical_Map_of_Europe_(Without_Markings).svg" alt="Physical map of Europe">
+<svg class="overlay" viewBox="0 0 2070 1848" preserveAspectRatio="none" aria-label="Approximate fictional imperial territory">
+  <!-- Approximate overlays, positioned against the real map. -->
+  <polygon points="790,675 850,650 900,675 875,730 810,735"/>
+  <polygon points="845,700 925,675 980,710 965,790 900,810 850,770"/>
+  <polygon points="900,790 980,770 1040,805 1030,880 960,895 900,850"/>
+  <polygon points="930,850 1030,850 1090,900 1060,965 985,950 930,910"/>
+  <polygon points="1035,910 1090,900 1145,940 1125,1005 1065,1000 1040,965"/>
+  <polygon points="1130,1060 1160,1040 1190,1060 1180,1090 1145,1095"/>
+  <polygon class="sea" points="1080,1160 1130,1150 1180,1170 1165,1205 1110,1200"/>
+  <polygon class="sea" points="1240,1030 1285,1010 1320,1035 1300,1060 1250,1055"/>
+  <polygon points="1010,820 1080,800 1130,830 1110,875 1050,880"/>
+  <text x="820" y="700">Friuli</text>
+  <text x="875" y="745">Slovenia</text>
+  <text x="925" y="825">Lower Hungary</text>
+  <text x="1045" y="940">Wallachia</text>
+  <text x="1130" y="1080">Athens</text>
+  <text x="1245" y="1025">Cyprus</text>
+  <text x="1015" y="810">Salzburg</text>
+  <text x="1080" y="1160">Antioch exclave</text>
+</svg>
+</div>
+<div class="legend"><span><i class="box"></i> Imperial territory</span><span>Gold-marked labels = fictional historical claims</span></div>
+<p><small>Base map: European Environment Agency elevation map, via Wikimedia Commons, CC BY-SA 3.0.</small></p>
+</section>
+
+<section>
+<h2>📜 Rise and Fall</h2>
+<div class="timeline">
+<div class="event"><b>1197</b> — Frederick de Potolamo acquires Slovenia and Friuli.</div>
+<div class="event"><b>1202–1207</b> — Raymond I reigns as King of Friuli-Potolamo.</div>
+<div class="event"><b>1207–1227</b> — Salzburg and Lower Hungary are conquered.</div>
+<div class="event"><b>1228</b> — Battle of Friuli; Frederick I dies after 21 years on the throne.</div>
+<div class="event"><b>1228–1229</b> — Austria conquers Lower Hungary.</div>
+<div class="event"><b>1230</b> — Crusaders crush Frederick II and force him into German vassalage.</div>
+<div class="event"><b>1231</b> — Antioch is occupied after the Battle of Damascus.</div>
+<div class="event"><b>1232</b> — Cyrene and Cyprus are occupied.</div>
+<div class="event"><b>1237</b> — Frederick II dies; Otto I the Victorious is crowned.</div>
+<div class="event"><b>1239</b> — Athens and Thessaloniki are occupied.</div>
+<div class="event"><b>1241</b> — Wallachia is occupied <i>jure uxoris</i>.</div>
+<div class="event"><b>1243</b> — Cyprus revolts.</div>
+<div class="event"><b>1245</b> — Cyprus is occupied again.</div>
+<div class="event"><b>1251</b> — Otto I reverses the German vassalage.</div>
+<div class="event"><b>1261</b> — Otto I dies; the Frederickian Dynasty becomes extinct.</div>
+<div class="event"><b>1261–1263</b> — Unrouch the Brave reigns.</div>
+<div class="event"><b>1262</b> — The Ottonian Dynasty begins.</div>
+<div class="event"><b>1263</b> — Otto II of Cyprus deposes Unrouch.</div>
+<div class="event"><b>1265</b> — The empire reaches its peak: Lower Hungary, Athens, Cyprus, Friuli, Slovenia and a small Antioch exclave.</div>
+<div class="event"><b>1271</b> — Otto II leaves no legitimate heir; the empire collapses.</div>
+</div>
+</section>
+
+<section>
+<h2>👑 Dynasties</h2>
+<p><b>Frederickian Dynasty:</b> 1197–1261</p>
+<p><b>Transitional rule:</b> Unrouch the Brave, 1261–1263</p>
+<p><b>Ottonian Dynasty:</b> 1262–1271</p>
+</section>
+</main>
+<footer>Fictional history project · 1197–1271 CE</footer>
+</body>
+</html>
